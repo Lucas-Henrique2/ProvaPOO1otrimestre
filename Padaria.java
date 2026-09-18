@@ -1,12 +1,12 @@
-package br.edu.exemplo.padaria.entity;
+package br.edu.exemplo.padaria;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@Entity
+@SpringBootApplication
 public class Padaria {
 
-
+    public static void main(String[] args) {
+        SpringApplication.run(Padaria.class, args);
+    }
 }
